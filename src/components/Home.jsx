@@ -1,7 +1,13 @@
 import React from "react";
+import Header from "./Header/Header";
 
 const HomeLayout = props => (
-    <h1>HOME</h1>
-)
+    <div className="main-layout home-layout">
+        <Header/>
+        <div className="content">
+            <h1>Home</h1>
+        </div>
+    </div>
+);
 
 export default HomeLayout;
